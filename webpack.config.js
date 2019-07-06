@@ -10,7 +10,7 @@ module.exports = {
   	entry: './src/app.js',
   	output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: WEBPACK_ENV === '/dist/' ? '/dist/' : '//s.happymanage1.com/E_system/dist/',
+    publicPath: WEBPACK_ENV === '/dist/' ? '/dist/' : '//s.diaopie.com/E_system/dist/',
     filename: 'js/app.js'
   },
   resolve: {
